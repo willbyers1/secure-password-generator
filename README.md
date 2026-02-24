@@ -1,3 +1,4 @@
+
 # 🔐 Secure Password Generator
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -47,7 +48,9 @@ Enter password length (Default: 12): 16
 Generated Passwords:
 ------------------------------
 Option 1: 9#mK$pL2@nQz!xR4
+
 Option 2: aB7&yU1%wE9*rT5^
+
 Option 3: Zx3(cV4)bN5?mM6<
 ------------------------------
 
