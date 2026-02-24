@@ -52,6 +52,7 @@ Option 1: 9#mK$pL2@nQz!xR4
 Option 2: aB7&yU1%wE9*rT5^
 
 Option 3: Zx3(cV4)bN5?mM6<
+
 ------------------------------
 
 Tip: Keep your passwords safe and use a manager!
