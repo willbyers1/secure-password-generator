@@ -24,7 +24,59 @@ A lightweight, command-line interface (CLI) tool designed to generate cryptograp
 
 You don't need to install any external libraries. Just clone the repo and run it!
 
+
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/willbyers1/secure-password-generator.git](https://github.com/willbyers1/secure-password-generator.git)
 cd secure-password-generator
+```
+```bash
+Run the Script
+python secure_pass.py
+```
+
+📸 Preview
+Here is how the tool looks in action:
+
+Plaintext
+--- 🔒 Secure Password Generator (By Will) ---
+Generates high-entropy passwords for better security.
+
+Enter password length (Default: 12): 16
+
+Generated Passwords:
+------------------------------
+Option 1: 9#mK$pL2@nQz!xR4
+Option 2: aB7&yU1%wE9*rT5^
+Option 3: Zx3(cV4)bN5?mM6<
+------------------------------
+
+Tip: Keep your passwords safe and use a manager!
+🧠 Code Logic
+The script utilizes Python's random and string modules to ensure randomness:
+
+Character Pools: Creates lists for Letters (A-Z, a-z), Digits (0-9), and Symbols (!@#...).
+
+Mandatory Inclusion: Forces the inclusion of at least one character from each pool to meet complexity requirements.
+
+Shuffling: Uses random.shuffle() to prevent predictable patterns.
+
+🔜 Future Improvements (To-Do)
+[ ] Add a Graphical User Interface (GUI) with Tkinter.
+
+[ ] Add an option to save passwords to an encrypted file.
+
+[ ] Allow users to exclude specific characters.
+
+🤝 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have ideas to make the algorithm even more secure.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/NewFeature)
+
+Commit your Changes (git commit -m 'Add some NewFeature')
+
+Push to the Branch (git push origin feature/NewFeature)
+
+Open a Pull Request
