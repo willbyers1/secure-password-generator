@@ -45,7 +45,7 @@ Generates high-entropy passwords for better security.
 
 Enter password length (Default: 12): 16
 
-Generated Passwords:
+Generated Passwords
 ------------------------------
 Option 1: 9#mK$pL2@nQz!xR4
 
